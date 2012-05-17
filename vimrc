@@ -29,6 +29,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'c9s/bufexplorer'
+Bundle 'vim-scripts/buftabs'
 
 filetype plugin indent on     " required!
 "
