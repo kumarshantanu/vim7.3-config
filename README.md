@@ -28,10 +28,14 @@ Or,
 
 #### Moving between windows
 
-`Ctrl+ww` Switches between windows in vim
+`Ctrl+ww` Switches between windows
+
 `Ctrl+wh` Switches focus to the window on left
+
 `Ctrl+wl` Switches focus to the window on right
+
 `Ctrl+wj` Switches focus to the window up
+
 `Ctrl+wk` Switches focus to the window down
 
 #### Using the file-explorer `NERDTree`
@@ -43,5 +47,7 @@ To open a file from existing list, bring cursor to desired file and press `t`
 #### Moving between tabs
 
 `Ctrl+h` Switches focus to the tab on the left
+
 `Ctrl+l` Switches focus to the tab on the right
+
 `Ctrl+n` Opens a new empty tab
