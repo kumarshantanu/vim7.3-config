@@ -2,7 +2,14 @@
 
 Vim 7.3 configuration for Clojure and Ruby
 
-If you are a Windows user, replace `~` with `%USERPROFILE%` below:
+### Windows users
+
+1. Install `git` and `curl` as necessary:
+https://github.com/gmarik/vundle/wiki/Vundle-for-Windows
+
+2. Replace `~` with `%USERPROFILE%` below:
+
+### Installation
 
 To install, backup old versions of `~/.vim` and `~/.vimrc` and delete them.
 Then,
