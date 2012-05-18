@@ -40,6 +40,8 @@ Or,
 
 #### Using the file-explorer `NERDTree`
 
+To toggle the `NERDTree` window, use `Ctrl+t`
+
 To add a file, switch to the NERDTree window and press `m` to bring up a menu
 
 To open a file from existing list, bring cursor to desired file and press `t`
