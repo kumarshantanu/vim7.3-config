@@ -90,6 +90,9 @@ endif
 " Settings for NerdTree
 " autocmd vimenter * if !argc() | NERDTree | endif
 let g:nerdtree_tabs_open_on_console_startup=1
+map  <C-l> :tabn<CR>
+map  <C-h> :tabp<CR>
+map  <C-n> :tabnew<CR>
 
 " Settings for VimClojure
 let vimclojure#FuzzyIndent=1

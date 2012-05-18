@@ -23,3 +23,25 @@ Launch `vim` (or `mvim` or `gvim` as applicable), run `:BundleInstall`
 Or,
 
     $ vim +BundleInstall +qall
+
+### Navigation guide
+
+#### Moving between windows
+
+`Ctrl+ww` Switches between windows in vim
+`Ctrl+wh` Switches focus to the window on left
+`Ctrl+wl` Switches focus to the window on right
+`Ctrl+wj` Switches focus to the window up
+`Ctrl+wk` Switches focus to the window down
+
+#### Using the file-explorer `NERDTree`
+
+To add a file, switch to the NERDTree window and press `m` to bring up a menu
+
+To open a file from existing list, bring cursor to desired file and press `t`
+
+#### Moving between tabs
+
+`Ctrl+h` Switches focus to the tab on the left
+`Ctrl+l` Switches focus to the tab on the right
+`Ctrl+n` Opens a new empty tab
