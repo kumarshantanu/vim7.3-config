@@ -30,6 +30,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'c9s/bufexplorer'
 Bundle 'vim-scripts/buftabs'
+Bundle 'kien/ctrlp.vim'
 
 filetype plugin indent on     " required!
 "
@@ -94,6 +95,19 @@ map <C-t> :NERDTreeToggle<CR>
 map <C-l> :tabn<CR>
 map <C-h> :tabp<CR>
 map <C-n> :tabnew<CR>
+
+" Settings for ctrlp
+let g:ctrlp_working_path_mode = 2
+" set wildignore+=*/tmp/*,*.so,*.swp,*.zip  " MacOSX/Linux
+" set wildignore+=tmp\*,*.swp,*.zip,*.exe   " Windows
+set wildignore+=*/tmp/*,tmp\*,*.so,*.swp,*.zip,*.exe  " MacOSX/Linux/Windows
+
+"let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$',
+  \ 'file': '\.exe$\|\.so$\|\.dll$',
+  \ 'link': 'some_bad_symbolic_links',
+  \ }
 
 " Settings for VimClojure
 let vimclojure#FuzzyIndent=1

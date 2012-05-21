@@ -53,3 +53,9 @@ To open a file from existing list, bring cursor to desired file and press `t`
 `Ctrl+l` Switches focus to the tab on the right
 
 `Ctrl+n` Opens a new empty tab
+
+#### Finding files
+
+`Ctrl+p` opens up an interface to find files via fuzzy match
+
+Follow this URL for details on this mode: https://github.com/kien/ctrlp.vim
