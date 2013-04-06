@@ -23,6 +23,7 @@ Bundle 'git://git.wincent.com/command-t.git'
 " ...
 
 " Shantanu repos
+Bundle 'tpope/vim-foreplay'
 Bundle 'vim-scripts/VimClojure'
 Bundle 'jpalardy/vim-slime'
 Bundle 'vim-ruby/vim-ruby'
@@ -31,6 +32,7 @@ Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'c9s/bufexplorer'
 Bundle 'vim-scripts/buftabs'
 Bundle 'kien/ctrlp.vim'
+Bundle 'tpope/vim-markdown'
 
 filetype plugin indent on     " required!
 "
