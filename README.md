@@ -17,7 +17,7 @@ delete them. Then,
 ```bash
     $ cd vim7.3-config
     $ ln -s `pwd`/vimrc ~/.vimrc  # Windows users: cp vimrc ~/.vimrc
-    $ ln -s `pwd`/gvimrc ~/.gvimrc # Windows users: cp gvimrc ~/.gvimrc
+    $ ln -s `pwd`/vimrc ~/.gvimrc # Windows users: cp gvimrc ~/.gvimrc
     $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 ```
 
