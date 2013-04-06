@@ -23,8 +23,12 @@ Bundle 'git://git.wincent.com/command-t.git'
 " ...
 
 " Shantanu repos
-Bundle 'tpope/vim-foreplay'
-Bundle 'vim-scripts/VimClojure'
+" Bundle 'tpope/vim-foreplay'
+" Bundle 'vim-scripts/VimClojure'
+Bundle 'tpope/vim-fireplace'
+Bundle 'tpope/vim-classpath'
+Bundle 'guns/vim-clojure-static'
+Bundle 'dgrnbrg/vim-redl'
 Bundle 'jpalardy/vim-slime'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'scrooloose/nerdtree'
