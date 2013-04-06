@@ -14,16 +14,20 @@ https://github.com/gmarik/vundle/wiki/Vundle-for-Windows
 1. To install, backup old versions of `~/.vim`, `~/.vimrc` and `~/.gvimrc` and
 delete them. Then,
 
+```bash
     $ cd vim7.3-config
     $ ln -s `pwd`/vimrc ~/.vimrc  # Windows users: cp vimrc ~/.vimrc
     $ ln -s `pwd`/gvimrc ~/.gvimrc # Windows users: cp gvimrc ~/.gvimrc
     $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+```
 
 2. Launch `vim` (or `mvim` or `gvim` as applicable), run `:BundleInstall`
 
 Or,
 
+```bash
     $ vim +BundleInstall +qall
+```
 
 ### Navigation guide
 
