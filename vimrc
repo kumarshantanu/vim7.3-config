@@ -84,6 +84,9 @@ set laststatus=2
 " 80 columns marker
 if exists('+colorcolumn')
   set colorcolumn=80
+  highlight ColorColumn ctermbg=7
+  highlight ColorColumn ctermfg=0
+  highlight ColorColumn guibg=Black
 else
   au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 endif
