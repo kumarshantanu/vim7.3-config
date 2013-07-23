@@ -126,3 +126,12 @@ let vimclojure#DynamicHighlighting=1
 let vimclojure#ParenRainbow=1
 " let vimclojure#WantNailgun = 1
 " let vimclojure#SplitSize = 7
+
+" Whitespace highlight
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
+
