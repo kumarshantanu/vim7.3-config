@@ -135,3 +135,5 @@ autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
+" Replace hideous dark blue color for comments with lighter blue
+highlight Comment ctermfg=Blue
