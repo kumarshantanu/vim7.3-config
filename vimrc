@@ -38,6 +38,9 @@ Bundle 'vim-scripts/buftabs'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-markdown'
 
+" cljx files
+autocmd BufNewFile,BufReadPost *.cljx setfiletype clojure
+
 filetype plugin indent on     " required!
 "
 " Brief help
