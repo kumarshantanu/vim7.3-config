@@ -31,12 +31,18 @@ Bundle 'guns/vim-clojure-static'
 Bundle 'dgrnbrg/vim-redl'
 Bundle 'jpalardy/vim-slime'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'klen/python-mode'
+Bundle 'django.vim'
+Bundle 'Glench/Vim-Jinja2-Syntax'
+Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'c9s/bufexplorer'
 Bundle 'vim-scripts/buftabs'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-markdown'
+Bundle 'ntpeters/vim-indent-guides'
+Bundle 'ntpeters/vim-better-whitespace'
 
 " cljx files
 autocmd BufNewFile,BufReadPost *.cljx setfiletype clojure
