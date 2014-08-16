@@ -1,6 +1,6 @@
 ## vim7.3-config
 
-Vim 7.3 configuration for Clojure and Ruby
+Vim 7.3 configuration for Clojure, Python and Ruby
 
 ### Windows users
 
@@ -14,20 +14,20 @@ https://github.com/gmarik/vundle/wiki/Vundle-for-Windows
 1. To install, backup old versions of `~/.vim`, `~/.vimrc` and `~/.gvimrc` and
 delete them. Then,
 
-```bash
-    $ cd vim7.3-config
-    $ ln -s `pwd`/vimrc ~/.vimrc  # Windows users: cp vimrc ~/.vimrc
-    $ ln -s `pwd`/vimrc ~/.gvimrc # Windows users: cp gvimrc ~/.gvimrc
-    $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-```
+    ```bash
+        $ cd vim7.3-config
+        $ ln -s `pwd`/vimrc ~/.vimrc  # Windows users: cp vimrc ~/.vimrc
+        $ ln -s `pwd`/vimrc ~/.gvimrc # Windows users: cp gvimrc ~/.gvimrc
+        $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    ```
 
 2. Launch `vim` (or `mvim` or `gvim` as applicable), run `:BundleInstall`
 
-Or,
+    Or,
 
-```bash
-    $ vim +BundleInstall +qall
-```
+    ```bash
+        $ vim +BundleInstall +qall
+    ```
 
 ### Navigation guide
 
