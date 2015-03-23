@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
@@ -46,6 +46,9 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-markdown'
 Bundle 'ntpeters/vim-indent-guides'
 Bundle 'ntpeters/vim-better-whitespace'
+" For GitHub light color GUI theme
+" Bundle 'github'
+Bundle 'altercation/vim-colors-solarized'
 
 " cljx files
 autocmd BufNewFile,BufReadPost *.cljx setfiletype clojure
@@ -85,6 +88,10 @@ set softtabstop=2
 " text selection
 if has("gui_macvim")
     let macvim_hig_shift_movement = 1
+    set hlsearch
+    " colorscheme github
+    set background=light
+    colorscheme solarized
 endif
 
 set title
