@@ -54,6 +54,23 @@ Bundle 'altercation/vim-colors-solarized'
 " cljx files
 autocmd BufNewFile,BufReadPost *.cljx setfiletype clojure
 
+" Compile shortcuts
+autocmd filetype python nnoremap <F4> :w <bar> exec '!python '.shellescape('%')<CR>
+autocmd filetype c nnoremap <F4> :w <bar> exec '!gcc '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
+autocmd filetype cpp nnoremap <F4> :w <bar> exec '!g++ '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
+autocmd filetype rust nnoremap <F4> :w <bar> exec '!rustc '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
+
+au BufEnter *.cpp set makeprg=g++\ -g\ %\ -o\ %<
+au BufEnter *.c set makeprg=gcc\ -g\ %\ -o\ %<
+au BufEnter *.rs set makeprg=rustc\ -g\ %\ -o\ %<
+au BufEnter *.py set makeprg=python\ %
+au BufEnter *.[rR] set makeprg=Rscript\ %
+map <F5> :call CompileGcc()<CR>
+func! CompileGcc()
+  exec "w"
+  silent make
+endfunc
+
 filetype plugin indent on     " required!
 "
 " Brief help
